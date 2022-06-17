@@ -1,0 +1,182 @@
+/* Сбрасываем стили отступов */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.header_menu {
+  height: 80px;
+  background: #000;
+  /* border-radius: 0 0 15px 15px; */
+}
+
+/* Высота меню*/
+section.header_main {
+  height: 700px;
+  max-height: 700px;
+}
+
+/* Стили для списка для класса header*/
+div.header_menu ul {
+  color: #fff;
+  list-style: none;
+  padding-top: 27px;
+  margin-left: 1100px;
+}
+
+/* Стили для элементов списка для класса header*/
+div.header_menu ul li {
+  display: inline;
+  padding-left: 30px;
+  color: #000;
+}
+
+/* Стили для ссылок в списке для класса header*/
+div.header_menu ul a {
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* Стили для ссылок в шапке для изменения цвета*/
+div.header_menu ul a.a_color {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* Стили для ссылок в списке при наведении
+для класса header*/
+div.header_menu ul a:hover {
+  /* text-decoration: underline; */
+  border: 1px solid #fff;
+  сolor: #fff;
+}
+
+/* Стили для ссылок в списке которые были активированы
+для класса header*/
+div.header_menu ul a:visited {
+  сolor: #fff;
+  style: none;
+}
+
+/* Стили для заголовка в шапке*/
+div.header_about_me h1 {
+  font-size: 60px;
+  padding-left: 148px;
+  padding-top: 190px;
+}
+
+/* Стили для тега hr*/
+#hr_for_midle {
+  width: 500px;
+  height: 1px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#hr_for_midle:hover {
+  height: 5px;
+  border-radius: 10px;
+}
+
+/* Стили для второго тега hr*/
+
+#hr_next_midle {
+  width: 500px;
+  height: 1px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+#hr_next_midle:hover {
+  height: 5px;
+  border-radius: 10px;
+}
+
+/* Стили для абзаца в шапке*/
+div.header_about_me p {
+  font-size: 20px;
+  padding-left: 148px;
+  padding-top: 38px;
+  max-width: 467px;
+  max-height: 90px;
+}
+
+/* Стили для кнопки в шапке*/
+div.header_about_me button {
+  padding: 15px;
+  background: #000;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 148px;
+  border: 2px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+/* Стили для кнопки при наведении*/
+div.header_about_me button:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* Стили для картинки в шапке*/
+/* div.header_about_me img {
+  font-size: 10px;
+  width: 300px;
+  height: 300px;
+  float: right;
+  padding-left: 750px;
+  position: absolute;
+} */
+
+/* Стили для блока main_block*/
+section.main_block {
+  height: 500px;
+  max-height: 500px;
+  /* background: #EDF7FA; */
+  background: #000;
+  margin-top: 100px;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Стили для блока left_main_block*/
+
+/* Стили для блока right_main_block*/
+
+/* Стили для секции footer*/
+
+section.footer {
+  height: 50px;
+  max-height: 50px;
+  /* background: #EDF7FA; */
+  background: #000;
+  margin-top: 30px;
+  padding: 10px;
+  color: #fff;
+}
+
+section.footer div.div_footer ul li {
+  display: inline;
+  padding-left: 20px;
+  color: #000;
+}
+
+section.footer div.div_footer ul {
+  padding-top: 20px;
+  color: #000;
+  list-style: none;
+  padding-left: 10px;
+}
+
+section.footer div.div_footer img {
+  
+}
