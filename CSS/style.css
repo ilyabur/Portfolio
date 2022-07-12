@@ -91,7 +91,7 @@ div.header_about_me h1 {
   margin-right: 500px;
   background-color: black;
   border-radius: 10px;
-  margin-top: 100px;
+  margin-top: 700px;
 }
 
 #hr_next_midle:hover {
@@ -141,16 +141,132 @@ div.header_about_me button:hover {
 section.main_block {
   height: 500px;
   max-height: 500px;
+  width: 100%;
   /* background: #EDF7FA; */
   background: #000;
   margin-top: 100px;
   padding: 10px;
   color: #fff;
+  column-count: 2;
+  float: right;
+  display: block;
+  margin-left: 400px;
+  padding-left: 400px;
+}
+
+section.main_block img {
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 /* Стили для блока left_main_block*/
 
+div.left_main_block {
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 300px;
+  max-width: 400px;
+}
+
+div.left_main_block p {
+  margin-top: 20px;
+}
+
+div.left_main_block h1 {
+  margin-top: 20px;
+}
+
 /* Стили для блока right_main_block*/
+
+div.right_main_block {
+  padding-top: 50px;
+  text-align: center;
+  margin-right: 300px;
+}
+
+div.right_main_block p {
+  margin-top: 20px;
+}
+
+div.right_main_block h1 {
+  margin-top: 20px;
+}
+
+section.main_block hr.hr_main {
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+section.main_block hr.hr_main_2 {
+  width: 200px;
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+/* Стили для секции second_main_block*/
+
+
+section.second_main_block {
+  height: 500px;
+  max-height: 500px;
+  width: 100%;
+  /* background: #EDF7FA; */
+  background: #fff;
+  margin-top: 100px;
+  padding: 10px;
+  color: #000;
+  column-count: 2;
+  float: right;
+  display: block;
+  margin-left: 400px;
+  padding-left: 400px;
+}
+
+section.second_main_block img {
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Стили для блока left_main_block*/
+
+div.left_second_block {
+  padding-top: 40px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+div.left_second_block p {
+  margin-top: 20px;
+}
+
+div.left_second_block h1 {
+  margin-top: 20px;
+}
+
+/* Стили для блока right_main_block*/
+
+div.right_second_block {
+  padding-top: 40px;
+  text-align: center;
+  margin-right: 300px;
+}
+
+div.right_second_block p {
+  margin-top: 20px;
+}
+
+div.right_second_block h1 {
+  margin-top: 20px;
+}
+
+section.second_main_block hr.hr_second {
+  width: 200px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
 
 /* Стили для секции footer*/
 
@@ -174,9 +290,9 @@ section.footer div.div_footer ul {
   padding-top: 20px;
   color: #000;
   list-style: none;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 section.footer div.div_footer img {
-  
+  width: 21px;
 }
