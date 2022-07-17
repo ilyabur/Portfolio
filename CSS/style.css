@@ -7,7 +7,15 @@
 div.header_menu {
   height: 80px;
   background: #000;
+  z-index: 100;
   /* border-radius: 0 0 15px 15px; */
+}
+
+.header_fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 /* Высота меню*/
@@ -75,6 +83,7 @@ div.header_about_me h1 {
   margin-right: 500px;
   background-color: black;
   border-radius: 10px;
+  transition: .5s
 }
 
 #hr_for_midle:hover {
@@ -92,6 +101,7 @@ div.header_about_me h1 {
   background-color: black;
   border-radius: 10px;
   margin-top: 700px;
+  transition: .5s
 }
 
 #hr_next_midle:hover {
@@ -166,7 +176,6 @@ div.left_main_block {
   padding-top: 30px;
   text-align: center;
   margin-left: 300px;
-  max-width: 400px;
 }
 
 div.left_main_block p {
@@ -180,7 +189,7 @@ div.left_main_block h1 {
 /* Стили для блока right_main_block*/
 
 div.right_main_block {
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   margin-right: 300px;
 }
@@ -252,6 +261,7 @@ div.right_second_block {
   padding-top: 40px;
   text-align: center;
   margin-right: 300px;
+  margin-top: 20px;
 }
 
 div.right_second_block p {
