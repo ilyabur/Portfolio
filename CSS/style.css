@@ -306,3 +306,7 @@ section.footer div.div_footer ul {
 section.footer div.div_footer img {
   width: 21px;
 }
+
+#git_icon {
+  height: 10px;
+}
